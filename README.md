@@ -1,5 +1,5 @@
 # WeChatAPI
-WeChat Web API （.Net Core) 可用于微信机器人开发
+WeChat Web API（.Net Core) 可用于微信机器人开发
 
 
 ## 使用代码
