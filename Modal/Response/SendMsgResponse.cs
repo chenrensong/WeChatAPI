@@ -1,10 +1,10 @@
-﻿using SS.WeChat.WebApi.Modal;
+﻿using WeChatAPI.Modal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SS.WeChat.WebApi.Modal.Response
+namespace WeChatAPI.Modal.Response
 {
     public class SendMsgResponse
     {

@@ -1,10 +1,10 @@
-﻿using SS.WeChat.WebApi.Modal.Request;
+﻿using WeChatAPI.Modal.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SS.WeChat.WebApi.Modal
+namespace WeChatAPI.Modal
 {
     /// <summary>
     /// 请求好友时的信息

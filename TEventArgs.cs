@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SS.WeChat.WebApi
+namespace WeChatAPI
 {
     /// <summary>
     /// 自定义回调事件参数

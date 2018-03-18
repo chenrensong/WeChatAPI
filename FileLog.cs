@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using SS.WeChat.WebApi;
+using WeChatAPI;
 namespace SS.WeChat.Robot
 {
     public class FileLog

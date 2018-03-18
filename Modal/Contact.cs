@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SS.WeChat.WebApi.Modal
+namespace WeChatAPI.Modal
 {
     /// <summary>
     /// BatchGetContact、GetContact获取到的联系人信息，包括公众号，个人号，群

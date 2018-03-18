@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace SS.WeChat.WebApi
+namespace WeChatAPI
 {
     public class Utils
     {

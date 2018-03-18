@@ -12,7 +12,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 
-namespace SS.WeChat.WebApi
+namespace WeChatAPI
 {
     public class FormDataItem
     {

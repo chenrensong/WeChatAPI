@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SS.WeChat.Robot;
-using SS.WeChat.WebApi.Modal;
-using SS.WeChat.WebApi.Modal.Request;
-using SS.WeChat.WebApi.Modal.Response;
+using WeChatAPI.Modal;
+using WeChatAPI.Modal.Request;
+using WeChatAPI.Modal.Response;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,7 +16,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace SS.WeChat.WebApi
+namespace WeChatAPI
 {
     public class GetContactException : Exception
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace SS.WeChat.WebApi.Modal
+namespace WeChatAPI.Modal
 {
     /// <summary>
     /// 群成员信息

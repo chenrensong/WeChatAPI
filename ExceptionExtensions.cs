@@ -5,7 +5,7 @@ using System.Text;
 using System.Linq;
 using System.Collections;
 
-namespace SS.WeChat.WebApi
+namespace WeChatAPI
 {
     public static class ExceptionExtensions
     {
