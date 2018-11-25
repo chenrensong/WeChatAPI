@@ -1,9 +1,5 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using SS.WeChat.Robot;
-using WeChatAPI.Modal;
-using WeChatAPI.Modal.Request;
-using WeChatAPI.Modal.Response;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +11,9 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
+using WeChatAPI.Modal;
+using WeChatAPI.Modal.Request;
+using WeChatAPI.Modal.Response;
 
 namespace WeChatAPI
 {
@@ -47,9 +46,9 @@ namespace WeChatAPI
         /// </summary>
         private string uuid = string.Empty;
 
-        private string host = "https://wx2.qq.com";
-        private string pushHost = "https://webpush.wx2.qq.com";
-        private string uploadHost = "https://file.wx2.qq.com";
+        private string host = Const.HOST;
+        private string pushHost = Const.PUSH_HOST;
+        private string uploadHost = Const.UPLOAD_HOST;
 
         public string Host
         {
