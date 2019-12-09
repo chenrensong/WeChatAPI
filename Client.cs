@@ -384,7 +384,7 @@ namespace WeChatAPI
         {
             try
             {
-                string webwxinitUrl = string.Format(host + "/cgi-bin/mmwebwx-bin/webwxinit?r={0}pass_ticket={1}", Utils.Get_r(), passTicket);
+                string webwxinitUrl = string.Format(host + "/cgi-bin/mmwebwx-bin/webwxinit?pass_ticket={0}", passTicket);
                 JObject postjson = JObject.FromObject(new
                 {
                     BaseRequest = baseRequest
